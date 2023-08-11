@@ -5,14 +5,15 @@ public class Smallest_No_Using_Sort_Method {
         System.out.println(sort(arr));
     }
 
-    static int sort (int[] no){
+
+    static int sort (int[] no) {
         int min = no[0];
-        for (int i=0; i < no.length; i++){
+        for (int i=0; i < no.length; i++) {
             if (no[i] < min) {
                 min = no[i];
             }
         }
         return min;
-
     }
+
 }
